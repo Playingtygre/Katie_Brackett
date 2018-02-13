@@ -5,25 +5,54 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(51, 51, 51);
+    background-color: #78909C  ;
 }
 
 li {
     float: left;
     font-family: Courier;
 	line-height: 10px;
-	font-size:30px;
+    font-size:30px;
 }
 
 li a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
 }
 
-li  a:hover {
+li a:hover {
     background-color: rgb(204, 228, 222);
 }
 /* Navigation bar End */
+/* header start */
+div.heading {
+    height: 10em;
+    background-color: rgb(204, 228, 222);
+    position: relative 
+}
+
+div.heading h1 {
+    /* margin: 0; */
+    /* background: #78909C; */
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+#title {
+     margin: 0;
+     /* background: yellow; */
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     font-size: larger;
+     transform: translate(-50%, -50%) 
+ 
+}
+/* header end */
